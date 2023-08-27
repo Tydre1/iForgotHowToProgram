@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --cor-de-fundo: #302e2e;
+    --cor-principal: #FFFFFF;
+    --cor-texto: #dbdada;
+    --cor-botao: #85b9e1;
+    --cor-botao-efeito: #4d7da2;
+    --fonte: 'Lato';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+    color: var(--cor-principal);
+}
+
+.container {
+    background: radial-gradient(circle, rgba(77,190,101,1) 0%, rgba(55,119,110,1) 50%, rgba(149,168,78,1) 100%);
+    align-items: center;
+    text-align: center;
+    margin: 80px 50px 75px 100px;
+}
+
+.primario_titulo {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.primario_subtexto {
+    margin-bottom: 45px;
+    color: var(--cor-texto);
+}
+
+.primario_html {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.primario_texto {
+    margin: 15px 0px 150px 0px;
+    color: var(--cor-texto);
+}
+
+.secundario_js {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.secundario_texto {
+    margin: 15px 0px 140px 0px;
+    color: var(--cor-texto);
+}
+
+.avaliacao_botao {
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.avaliacao_botao:hover {
+    background-color: var(--cor-botao-efeito);
+    color: var(--cor-de-fundo);
+}
