@@ -14,6 +14,9 @@ Este é um projeto simples de página web desenvolvido usando HTML, CSS e JavaSc
 
 O projeto é uma página web que apresenta duas seções principais: "Projeto em HTML" e "Projeto em JavaScript". Cada seção inclui uma descrição e uma imagem relacionada ao projeto. Além disso, há um botão de avaliação que os visitantes podem usar para fornecer feedback sobre a experiência do site.
 
+![print-projeto](https://github.com/Tydre1/iForgotHowToProgram/assets/132526838/93874575-501c-4aa6-b7ed-d71ebe0bd050)
+
+
 ## Funcionalidades
 
 - Exibição de informações sobre projetos em HTML e JavaScript.
