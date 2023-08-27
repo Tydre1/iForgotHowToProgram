@@ -74,3 +74,25 @@ body {
     background-color: var(--cor-botao-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media (max-width: 768px) {
+    .primario_titulo {
+        font-size: 28px;
+    }
+
+    .primario_subtexto {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .primario_titulo {
+        font-size: 24px;
+    }
+
+    .primario_subtexto {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
